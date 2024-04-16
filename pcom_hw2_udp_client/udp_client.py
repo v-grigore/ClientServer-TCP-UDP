@@ -29,7 +29,7 @@ def setup_parser():
                 return json.load(f)  # return parsed JSON
 
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,
-                                     description='UDP Client for Communication Protocols (2022-2023) Homework #2')
+                                     description='UDP Client for Communication Protocols (2023-2024) Homework #2')
 
     inputs = parser.add_argument_group('Input')
     inputs.add_argument('--input_file', type=lambda arg: read_json_file(parser, arg), metavar='FILE',

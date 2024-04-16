@@ -1,7 +1,7 @@
 ```
 usage: udp_client.py [-h] [--input_file FILE] [--source-address SOURCE_ADDRESS] [--source-port 1024-65535] [--mode {all_once,manual,random}] [--count COUNT] [--delay DELAY] server_ip server_port
 
-UDP Client for Communication Protocols (2022-2023) Homework #2
+UDP Client for Communication Protocols (2023-2024) Homework #2
 
 optional arguments:
   -h, --help            show this help message and exit
